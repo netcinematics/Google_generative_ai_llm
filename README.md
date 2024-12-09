@@ -15,10 +15,17 @@ curl \
 
   also works for :countTokens
 
-  ## SETUP
+  ### SETUP
   npm init       //package.json
   npm install @google/generative-ai
   npm i nodemon
   npm i env
 
+
+## Functions
+
+model.generateContent(prompt)
+model.startChat()
+model.sendMessage()
+model.embedContent()  //embedding-001
 
